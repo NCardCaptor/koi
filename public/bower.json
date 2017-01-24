@@ -1,0 +1,23 @@
+{
+  "name": "koi",
+  "homepage": "https://github.com/NCardCaptor/koi",
+  "authors": [
+    "NCardCaptor <marcelonallino@gmail.com>"
+  ],
+  "description": "core system for several projects",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "backbonejs#^1.3.3",
+    "handlebars": "^4.0.5",
+    "requirejs": "^2.3.2"
+  }
+}
