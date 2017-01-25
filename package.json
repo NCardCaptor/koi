@@ -1,0 +1,37 @@
+{
+  "name": "koi",
+  "version": "1.0.0",
+  "description": "clinicas",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "*",
+    "cls-bluebird": "^2.0.1",
+    "continuation-local-storage": "*",
+    "dateformat": "^2.0.0",
+    "express": "*",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.7.8",
+    "mysql": "^2.13.0",
+    "node-restful": "*",
+    "orm": "^3.2.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NCardCaptor/koi.git"
+  },
+  "keywords": [
+    "koi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NCardCaptor/koi/issues"
+  },
+  "homepage": "https://github.com/NCardCaptor/koi#readme"
+}

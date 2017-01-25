@@ -9,7 +9,7 @@ module.exports = db.define('users', {
     password: String
 }, {
         methods: {
-            username: function () {
+            Username: function () {
                 return this.username;
             }
         }

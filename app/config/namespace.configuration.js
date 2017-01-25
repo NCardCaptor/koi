@@ -12,7 +12,7 @@
 "use strict";
 
 var continuation = require("continuation-local-storage");
-var namespace = continuation.createNamespace("com.globalisso.isof");
+var namespace = continuation.createNamespace("com.koi.core");
 
 var Promise = require("bluebird");
 require("cls-bluebird")(namespace);
