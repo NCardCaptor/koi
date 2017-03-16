@@ -4,18 +4,21 @@
 <head>
   <!-- Meta, title, CSS, favicons, etc. -->
   <meta charset="utf-8">
-  <title><koiders> - We code solutions, we make dreams come true</title>
+  <title>
+    <koiders> - We code solutions, we make dreams come true</title>
   <meta name="keywords" content="" />
   <meta name="description" content="<koiders> - We code solutions, we make dreams come true">
   <meta name="author" content="<koiders>">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
+  <!--Loader CSS -->
+  <link rel="stylesheet" type="text/css" href="css/loader/loader.css">
   <!-- Font CSS (Via CDN) -->
   <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600'>
   <!-- Theme CSS -->
-  <link rel="stylesheet" type="text/css" href="theme/assets/skin/default_skin/css/theme.css">
+  <!--link rel="stylesheet" type="text/css" href="theme/assets/skin/default_skin/css/theme.css"-->
   <!-- Admin Forms CSS -->
-  <link rel="stylesheet" type="text/css" href="theme/assets/admin-tools/admin-forms/css/admin-forms.css">
+  <!--link rel="stylesheet" type="text/css" href="theme/assets/admin-tools/admin-forms/css/admin-forms.css"-->
   <!-- Favicon -->
   <link rel="shortcut icon" href="theme/assets/img/favicon.ico">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,9 +26,11 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
+   
 </head>
 
-<body class="dashboard-page sb-l-o sb-r-c">
+<body style="background-color: #eeeeee;">
   <!-- TODO: 
     class for login = external-page external-alt sb-l-c sb-r-c
     class for dashboard =  dashboard-page sb-l-o sb-r-c
@@ -45,6 +50,12 @@
 --------------------------------------------------------------->
   <!-- Start: Main -->
   <div id="main">
+    <div id="koiLoader">
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+    </div>
     <!-- TODO: class for login = animated fadeIn -->
     <!-- TODO: header goes here -->
     <!-- TODO: sidebarLeft goes here -->
@@ -54,6 +65,9 @@
       <!-- Begin: Content -->
       <section id="content" class="animated fadeIn">
         <!-- TODO: no class for login  -->
+        <div id="appContainer">
+          <!-- append main content here -->
+        </div>
       </section>
       <!-- End: Content -->
       <!-- TODO:footer goes here not fot login -->
@@ -68,7 +82,6 @@
   <script src="theme/vendor/jquery/jquery_ui/jquery-ui.min.js"></script>
   <!-- Theme Javascript TODO: only for login -->
   <script src="assets/js/utility/utility.js"></script>
-  <script src="assets/js/demo/demo.js"></script>
   <script src="assets/js/main.js"></script>
   <!-- HighCharts Plugin -->
   <script src="theme/vendor/plugins/highcharts/highcharts.js"></script>

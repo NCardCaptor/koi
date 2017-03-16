@@ -13,10 +13,13 @@ app.use(bodyParser.json());
 
 // Routes
 var userRoutes = require('./app/routes/user.routes.js');
+var loginRoutes = require('./app/routes/login.routes.js');
 
 // usage
 app.use(express.static(__dirname + '/public'));
 app.use('/koi', userRoutes);
+app.use('/koi', loginRoutes);
+
 
 // listen to port
 app.listen(3000, function () {

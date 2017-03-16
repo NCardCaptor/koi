@@ -12,7 +12,7 @@
 "use strict";
 
 var util = require("util");
-var logger = require("../../config/logger.configuration");
+var logger = require("../config/logger.configuration");
 var _ = require("lodash");
 
 var jsonError = function(error) {
